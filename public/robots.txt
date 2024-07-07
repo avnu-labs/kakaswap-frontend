@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.kakaswap.xyz/
+
+# Sitemaps
+Sitemap: https://www.kakaswap.xyz/sitemap.xml

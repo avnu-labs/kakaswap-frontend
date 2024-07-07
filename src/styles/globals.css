@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+html,
+body {
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#__next {
+  height: 100%;
+}
+
+.Toastify__toast-container {
+  padding: 0;
+  margin-bottom: 48px;
+}
+.Toastify__toast-container .custom-toast-close{
+  position: absolute;
+  left: -24px;
+  color: white;
+}
+.Toastify__toast {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  padding: 4px 8px;
+  overflow: visible;
+}
+.Toastify__toast--rtl {
+}
+.Toastify__toast--dark {
+}
+.Toastify__toast--default {
+}
+.Toastify__toast--info {
+}
+.Toastify__toast--success {
+  background-color: #27ae60;
+  color: white;
+}
+.Toastify__toast--warning {
+  background-color: #ffda95;
+  color: #a16207;
+}
+.Toastify__toast--error {
+  background-color: #e74c3c;
+  color: white;
+}
+.Toastify__toast-body {
+}
+
+.web3-full-width, .web3-full-width w3m-button{
+  width: 100%;
+}

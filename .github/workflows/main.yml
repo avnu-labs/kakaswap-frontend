@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  frontend:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install
+        env:
+          FONT_AWESOME_TOKEN: ${{ secrets.FONT_AWESOME_TOKEN }}
+        run: yarn install
+      - name: Lint
+        env:
+          FONT_AWESOME_TOKEN: ${{ secrets.FONT_AWESOME_TOKEN }}
+        run: yarn lint
+      - name: Build
+        env:
+          FONT_AWESOME_TOKEN: ${{ secrets.FONT_AWESOME_TOKEN }}
+          NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID }}
+        run: yarn build
