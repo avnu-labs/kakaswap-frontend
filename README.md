@@ -28,8 +28,8 @@ For more informations, you can check the [Uniswap documentation](https://docs.un
 
 ### Kakarot sepolia testnet
 
-- UniswapV2Factory: 0xD162aF6380D83D55c584E7a538ec7Bb6e773599D
-- UniswapV2Router02: 0x5D9dE86E1783ae719D6c47c35Cbe08d937F3BeCd
+- UniswapV2Factory: 0xe4CEb28E1e3a6192542A778f1c7277b7267C00B8
+- UniswapV2Router02: 0x7c51B6E67a3a7deD9E61F555e1f9FFb9BdE7ae4d
 
 Others protocols contracts already deployed on Kakarot can be found [here](https://docs.kakarot.org/survival-guide)
 
