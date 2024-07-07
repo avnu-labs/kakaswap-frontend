@@ -822,6 +822,7 @@ const usePoolManager = (): LiquidityManagerState => {
             type: "reset_remove_liquidity_quote",
           });
         })
+        // eslint-disable-next-line sonarjs/no-identical-functions
         .catch(() => {
           dispatch({ type: "signing_quote", isSigning: false });
           // Update toast to "error"

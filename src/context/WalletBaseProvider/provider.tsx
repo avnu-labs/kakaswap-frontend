@@ -1,6 +1,7 @@
 import type React from "react";
 
 import { WalletBaseContext } from "./context";
+// eslint-disable-next-line import/no-cycle
 import { useWalletBaseManager } from "./index";
 
 export interface WalletBaseProviderProps {

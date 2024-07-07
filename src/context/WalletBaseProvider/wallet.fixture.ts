@@ -1,5 +1,6 @@
 import type { TokenState } from "./model";
 
+// eslint-disable-next-line import/prefer-default-export
 export const aTokenState = (): TokenState => ({
   name: "Kakaswap Coin",
   symbol: "KKC",
