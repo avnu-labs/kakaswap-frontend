@@ -18,6 +18,7 @@ export const addLiquidityQuote = (
   reserveToken0: bigint,
   reserveToken1: bigint,
   slippage: number
+  // eslint-disable-next-line sonarjs/cognitive-complexity
 ) => {
   let quotedAmountToken0 = amountToken0;
   let quotedAmountToken1 = amountToken1;

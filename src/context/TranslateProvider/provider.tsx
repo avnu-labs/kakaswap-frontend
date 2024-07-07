@@ -21,6 +21,7 @@ export function TranslateProvider({ children }: TranslateProviderProps): JSX.Ele
 
   useEffect(() => {
     setLocale(getLocale);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.locale]);
 
   const contextValue = useMemo(() => ({ t: locale, locale: router.locale }), [locale, router.locale]);

@@ -112,6 +112,7 @@ const useSwapManager = (): SwapState => {
       tokenFrom: TokenState,
       tokenTo: TokenState,
       slippage: number
+      // eslint-disable-next-line sonarjs/cognitive-complexity
     ) => {
       if (
         (tokenFrom.isNative && tokenTo.address === WETH_ADDRESS) ||
