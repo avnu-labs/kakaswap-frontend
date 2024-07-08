@@ -8,8 +8,8 @@
 </div>
 <div align="center">
 
-[![Project license](https://img.shields.io/github/license/419Research/kakaswap-frontend.svg?style=flat-square)](LICENSE)
-<img src="https://img.shields.io/github/stars/419Research/kakaswap-frontend?style=social"/>
+[![Project license](https://img.shields.io/github/license/avnu-labs/kakaswap-frontend.svg?style=flat-square)](LICENSE)
+<img src="https://img.shields.io/github/stars/avnu-labs/kakaswap-frontend?style=social"/>
 
 </div>
 
