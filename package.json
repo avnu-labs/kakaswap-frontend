@@ -81,7 +81,7 @@
 		"@typescript-eslint/eslint-plugin": "5.23.0",
 		"@typescript-eslint/parser": "5.23.0",
 		"babel-jest": "28.1.0",
-		"commitlint": "16.2.4",
+		"commitlint": "19.5.0",
 		"eslint": "8.15.0",
 		"eslint-config-next": "12.1.6",
 		"eslint-config-sznm": "0.2.1",
