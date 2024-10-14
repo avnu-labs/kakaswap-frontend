@@ -9,7 +9,7 @@ export const kakarotSepolia = {
   name: "Kakarot Sepolia",
   currency: "ETH",
   explorerUrl: "https://blockscout-kkrt-sepolia.karnot.xyz/",
-  rpcUrl: "https://rpc-kakarot-sepolia.karnot.xyz/",
+  rpcUrl: "https://sepolia-rpc.kakarot.org/",
 };
 
 // 3. Create a metadata object
