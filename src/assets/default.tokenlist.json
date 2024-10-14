@@ -15,32 +15,32 @@
       "address": "",
       "symbol": "ETH",
       "decimals": 18,
-      "chainId": 1802203764,
+      "chainId": 920637907288165,
       "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/0d9233eef112388ef7e261cb88413894fd832679/assets/tokensets/coin-icons/eth.svg",
       "isNative": true
     },
     {
       "name": "Wrapped Ethereum",
-      "address": "0x761612F0C8bdf8cF10e6F10045E2Ca7cbffBa8A3",
+      "address": "0xe7f1725e7734ce288f8367e1bb143e90bb3f0512",
       "symbol": "WETH",
       "decimals": 18,
-      "chainId": 1802203764,
+      "chainId": 920637907288165,
       "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/0d9233eef112388ef7e261cb88413894fd832679/assets/tokensets/coin-icons/eth.svg"
     },
     {
       "name": "USD Coin",
-      "address": "0x3Ec72F6efE03e1f6E3e5Ac459d1fA8c86C7198Ae",
-      "symbol": "USDC",
-      "decimals": 18,
-      "chainId": 1802203764,
+      "address": "0x1B4C0bc8703D3af59322849bE01559fdb920c904",
+      "symbol": "kUSDC",
+      "decimals": 6,
+      "chainId": 920637907288165,
       "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/0d9233eef112388ef7e261cb88413894fd832679/assets/tokensets/coin-icons/usdc.svg"
     },
     {
       "name": "Tether USD",
-      "address": "0xb0537C06a5DE57a17376b2Bb57641646028965e6",
-      "symbol": "USDT",
-      "decimals": 18,
-      "chainId": 1802203764,
+      "address": "0x2BF1004D9e80ca087BD1e089d75bc8c471995aC1",
+      "symbol": "kUSDT",
+      "decimals": 6,
+      "chainId": 920637907288165,
       "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/0d9233eef112388ef7e261cb88413894fd832679/assets/tokensets/coin-icons/usdt.svg"
     }
   ]
