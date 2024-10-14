@@ -5,7 +5,7 @@ const projectId = process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "";
 
 // 2. Set chains
 export const kakarotSepolia = {
-  chainId: 1802203764,
+  chainId: 920637907288165,
   name: "Kakarot Sepolia",
   currency: "ETH",
   explorerUrl: "https://sepolia.kakarotscan.org",
