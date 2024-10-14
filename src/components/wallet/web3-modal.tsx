@@ -5,11 +5,11 @@ const projectId = process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "";
 
 // 2. Set chains
 export const kakarotSepolia = {
-  chainId: 1802203764,
+  chainId: 920637907288165,
   name: "Kakarot Sepolia",
   currency: "ETH",
-  explorerUrl: "https://sepolia.kakarotscan.org",
-  rpcUrl: "https://sepolia-rpc-priority.kakarot.org",
+  explorerUrl: "https://blockscout-kkrt-sepolia.karnot.xyz/",
+  rpcUrl: "https://rpc-kakarot-sepolia.karnot.xyz/",
 };
 
 // 3. Create a metadata object

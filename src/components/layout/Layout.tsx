@@ -31,9 +31,11 @@ const Layout = ({ children }: LayoutProps) => {
 
   // Once user is connected, fetch is balance
   useEffect(() => {
+    console.log("get token balance", init, pools.length, tokens.length, isConnected, !!walletProvider);
     // Fetch balance when user connect
-    if (!init && pools.length === 0 && tokens.length > 0 && isConnected && walletProvider) {
+    if (!init && tokens.length > 0 && isConnected && walletProvider) {
       getTokenBalanceForAll(tokens, walletProvider);
+
       getTokenAllowanceForAll(tokens, walletProvider);
     }
     if (!init && pools.length > 0 && isConnected && walletProvider) {

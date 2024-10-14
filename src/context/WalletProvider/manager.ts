@@ -156,7 +156,6 @@ const useWalletManager = (): WalletState => {
   // Need to init token list before call
   const getTokenBalanceForAll = React.useCallback(
     async (tokensToGetBalance: TokenState[], callerAccount: Eip1193Provider) => {
-      console.log("coucou");
       tokensToGetBalance.forEach((token: TokenState) => {
         getTokenBalance(token, callerAccount);
       });
