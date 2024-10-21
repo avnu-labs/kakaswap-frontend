@@ -80,7 +80,7 @@
 		"@types/react": "18.0.9",
 		"@typescript-eslint/eslint-plugin": "5.23.0",
 		"@typescript-eslint/parser": "5.23.0",
-		"babel-jest": "28.1.0",
+		"babel-jest": "29.7.0",
 		"commitlint": "19.5.0",
 		"eslint": "8.15.0",
 		"eslint-config-next": "12.1.6",
