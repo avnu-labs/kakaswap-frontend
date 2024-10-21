@@ -40,7 +40,7 @@
 		"@emotion/react": "11.11.4",
 		"@emotion/server": "11.11.0",
 		"@emotion/styled": "11.11.5",
-		"@fontsource/inter-tight": "^5.0.20",
+		"@fontsource/inter-tight": "^5.1.0",
 		"@fontsource/lexend": "4.5.10",
 		"@fortawesome/fontawesome-svg-core": "6.1.1",
 		"@fortawesome/free-brands-svg-icons": "6.1.1",

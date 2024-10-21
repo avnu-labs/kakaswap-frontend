@@ -1942,10 +1942,10 @@
     ethereum-cryptography "^2.0.0"
     micro-ftch "^0.3.1"
 
-"@fontsource/inter-tight@^5.0.20":
-  version "5.0.20"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter-tight/-/inter-tight-5.0.20.tgz#53a1bb64f395907bd8fb1d914fdbeef5b6bb598a"
-  integrity sha512-pFPX+W5+cbSL1XraIC34XBqc/GPVmulErl4Jit7lsZOtQcefhQamT5izrh0UfKvkWDlyKYBNZoPOBfXWvxYH3Q==
+"@fontsource/inter-tight@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter-tight/-/inter-tight-5.1.0.tgz#fb0c18363c9807e4c74439ed4b69a90913217c27"
+  integrity sha512-ouxh3sVcGVjL91+vl7JUEn3qLTEWX8RNhenZSgmX1hGCsbHt+MZ99CNiR5gOpoAh5QeBAPyiZlQDxtjwdqqpyg==
 
 "@fontsource/lexend@4.5.10":
   version "4.5.10"
